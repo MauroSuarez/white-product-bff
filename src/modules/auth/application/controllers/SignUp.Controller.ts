@@ -21,6 +21,6 @@ export class SignUpController {
   @HttpCode(HttpStatus.OK)
   async signin(@Body() loginRequest): Promise<any> {
     // return new LoginResponse(await this.authService.login(loginRequest));
-    return { status: 'signup' }
+    return { status: 'signup' };
   }
 }

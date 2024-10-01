@@ -5,17 +5,22 @@
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es2017",
+    "target": "es2022",
     "sourceMap": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
     "outDir": "./dist",
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"],
+      "@/*": ["src/*"]
     },
     "incremental": true,
-    "allowJs": true
+    "allowSyntheticDefaultImports": true,
+    "preserveConstEnums": true
   },
   "exclude": ["node_modules", "dist"]
 }

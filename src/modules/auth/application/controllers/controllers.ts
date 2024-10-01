@@ -1,7 +1,4 @@
-import { SignInController } from './signin/SignIn.Controller';
-import { SignUpController } from './signup/SignUp.Controller';
+import { SignInController } from './SignIn.Controller';
+import { SignUpController } from './SignUp.Controller';
 
-export const controllers = [
-  SignInController,
-  SignUpController
-];
+export const controllers = [SignInController, SignUpController];

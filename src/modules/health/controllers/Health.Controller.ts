@@ -10,7 +10,7 @@ export class HealthController {
   health() {
     return {
       status: 'Ok',
-      message: `running at port: ¡buscar el puesto en config!`
-    }
+      message: `running at port: ¡buscar el puesto en config!`,
+    };
   }
 }
